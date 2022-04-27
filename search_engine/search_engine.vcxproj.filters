@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{daee18fb-0886-43c5-b1cc-388a848591ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H">
+      <UniqueIdentifier>{53f9ba21-cc2e-4575-91ad-3584e6441dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{d336f6de-99ed-4226-a7ca-54ed71b2a5af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="check.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="class.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="search_engine.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="class.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries.h">
+      <Filter>H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="answers.json">
+      <Filter>JSON</Filter>
+    </Text>
+    <Text Include="config.json">
+      <Filter>JSON</Filter>
+    </Text>
+    <Text Include="requests.json">
+      <Filter>JSON</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
