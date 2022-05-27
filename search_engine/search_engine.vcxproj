@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Projects\Visual Studio\C++\search_engine\json-develop\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\DANIIL\Projects\Visual Studio\C++\search_engine\json-develop\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,8 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="check.cpp" />
-    <ClCompile Include="class.cpp" />
+    <ClCompile Include="ConverterJSON.cpp" />
     <ClCompile Include="search_engine.cpp" />
+    <ClCompile Include="InvertedIndex.cpp" />
+    <ClCompile Include="file_paths.cpp" />
+    <ClCompile Include="SearchServer.cpp" />
+    <ClCompile Include="unique_words.cpp" />
     <Text Include="answers.json">
       <FileType>Document</FileType>
     </Text>
@@ -154,8 +158,11 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class.h" />
-    <ClInclude Include="libraries.h" />
+    <ClInclude Include="ConverterJSON.h" />
+    <ClInclude Include="Entry.h" />
+    <ClInclude Include="RelativeIndex.h" />
+    <ClInclude Include="SearchServer.h" />
+    <ClInclude Include="InvertedIndex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

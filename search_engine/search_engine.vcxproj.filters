@@ -1,33 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="CPP">
-      <UniqueIdentifier>{daee18fb-0886-43c5-b1cc-388a848591ae}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="H">
-      <UniqueIdentifier>{53f9ba21-cc2e-4575-91ad-3584e6441dc2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="JSON">
       <UniqueIdentifier>{d336f6de-99ed-4226-a7ca-54ed71b2a5af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CPP %28БИБЛИОТЕКИ%29">
+      <UniqueIdentifier>{daee18fb-0886-43c5-b1cc-388a848591ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP %28ФУНКЦИИ%29">
+      <UniqueIdentifier>{1addec5e-1ba0-4819-88f5-66524970ec44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H %28БИБЛИОТЕКИ%29">
+      <UniqueIdentifier>{53f9ba21-cc2e-4575-91ad-3584e6441dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H %28ПРОВЕРКИ%29">
+      <UniqueIdentifier>{86878acf-d887-462e-8723-624f497beb1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConverterJSON.cpp">
+      <Filter>CPP %28БИБЛИОТЕКИ%29</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertedIndex.cpp">
+      <Filter>CPP %28БИБЛИОТЕКИ%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchServer.cpp">
+      <Filter>CPP %28БИБЛИОТЕКИ%29</Filter>
+    </ClCompile>
     <ClCompile Include="check.cpp">
-      <Filter>CPP</Filter>
+      <Filter>CPP %28ФУНКЦИИ%29</Filter>
     </ClCompile>
-    <ClCompile Include="class.cpp">
-      <Filter>CPP</Filter>
+    <ClCompile Include="file_paths.cpp">
+      <Filter>CPP %28ФУНКЦИИ%29</Filter>
     </ClCompile>
-    <ClCompile Include="search_engine.cpp">
-      <Filter>CPP</Filter>
+    <ClCompile Include="unique_words.cpp">
+      <Filter>CPP %28ФУНКЦИИ%29</Filter>
     </ClCompile>
+    <ClCompile Include="search_engine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="class.h">
-      <Filter>H</Filter>
+    <ClInclude Include="ConverterJSON.h">
+      <Filter>H %28БИБЛИОТЕКИ%29</Filter>
     </ClInclude>
-    <ClInclude Include="libraries.h">
-      <Filter>H</Filter>
+    <ClInclude Include="InvertedIndex.h">
+      <Filter>H %28БИБЛИОТЕКИ%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchServer.h">
+      <Filter>H %28БИБЛИОТЕКИ%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>H %28ПРОВЕРКИ%29</Filter>
+    </ClInclude>
+    <ClInclude Include="RelativeIndex.h">
+      <Filter>H %28ПРОВЕРКИ%29</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
